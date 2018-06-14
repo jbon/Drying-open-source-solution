@@ -1,6 +1,25 @@
 # State of art
-
+#test
 For basics category, we inspire by *“Les séchoirs solaires – Théorie et pratique”* de Michel Daguenet, because he made a huge work about drying science, and more applied to solar drying.
+
+# Summary
+## [Dryer for solid, centimetre scale](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art.md#dryer-for-solid-centimetre-scale)
+
+### [Convective Dryer](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art.md#convective-drying)
+
+[1 Global parameter](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art.md#1-global-parameters)
+
+[2 Drying room](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art.md#2-drying-room)
+
+[3 Suupling system](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art.md#3-supplying-systems)
+
+[4 Heat source](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art.md#4-heat-source)
+
+[5 Convection system](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art.md#5-convection)
+
+[6 Automation](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art.md#6-automation)
+
+[7 Alimentary legislation](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art.md#7-alimentary-legislation)
 
 # Dryer for solid, centimetre scale
 That part relate to drying of: 
@@ -84,80 +103,31 @@ Dryer which integrate one or more wheel to transport it.
 
 ### 2. Drying room
 #### A. Materials
-We don't find European restriction for indirect contact, like it appear with a dryer. In that case, food goods can stay in the same room during few days with the same air, so we consider indirect contact like direct contact, we work later more presicely about that question. Maybe restriction could be simplified if the dryer work with renewable air.
-
-The best way to respect restriction is to use food grade product, but we try to popularize restriction to divert other material and products.
-
-European laws indicate regulation for direct contact, so there isn't direct contact with nuts, they don't need food grade materials.(verify that information)
-
-For direct alimentary contact, it need to respect [European regulation](http://www.europarl.europa.eu/RegData/etudes/STUD/2016/581411/EPRS_STU%282016%29581411_EN.pdf) which identify inertia of the material. It depend of:
-- materials composition
-- migration's treshold in food goods, of substance which composed materials
-- lack of deterioration of organoleptic properties (taste, smell, sight and touch) by materials
-
-There is specific criteria for:
-- materials which could be treat (ionization, recycling ...) 
-- coloring materials
-- cleaning product using on material which have contacte with good foods
+We don't find European restriction for indirect contact, like it appear with drying room in a dryer. In that case, food goods can stay in the same room during few days with the same air, so we consider indirect contact like direct contact, we work later more presicely about that question. Maybe restriction could be simplified if the dryer work with renewable air.
+(See under for more precision)
 
 #### - Stone – Building:
 Dryer directly integrate in a building. It can vary from old building (like an attic) to modern building with waxed concrete. For that part, we need to study food grade materials to identified what kind of material could be used, almost sure waxed concrete is legal, the rest need more study.
 
 We think than, for nuts and that kind of fruit, dryer don't need to be totally clean, but for other kind of products building have to be really clean. 
 
-We think than, for nuts and that kind of fruit, dryer don't need to be totally clean, but for other kind of products building have to be really clean.
-
 ![Traditional nuts dryer](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Materials%20-%20Stone%20building.jpg)
 
 #### - Steel
 Steel is a good solution for fruits and vegetables dryers, which need to be wash with water after each utilization, so stainless steel is easy to clean and it's resilient.
-Inertial criteria to respect are:
-- chemical composition ([European laws in french](http://www.contactalimentaire.com/fileadmin/ImageFichier_Archive/contact_alimentaire/Fichiers_Documents/Brochure_JO/Note_2004_64/Fiches_DGCCRF_Revisees/DGCCRF-Fiches-metaux-alliages.pdf)
-- limit of undesirable elements:
-	- Lead (Plomb): < 0.05 %
-	- Cadmium: < 0.01 %
-	- Arsenic: < 0.03 %
-	- ...
-- specific migration of metalic element :
-	- Nickel < 0.5 mg/kg of food goods
-	- Chrome < 5 mg/kg of food goods
-	- Zinc < 10 mg/kg of food goods
-	- Lead < 4 mg/kg of food goods
-	- cadmium < 0.3 mg/kg of food goods
-	-...
 
 *[French source](http://www.contactalimentaire.com/index.php?id=204&L=1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%5C%5C%5C%5C%5C%5C%5C%27%60%28%5B%7B%5E%7E)*
 
 ![Stainless dryer](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Materials%20-%20steel%20-%20stainless.jpg)
 
 #### - Wood:
-For European regulation, 2 categories of criteria could influence the choice :
-- wood variety:
-	- accept all food goods: oak, sweet chestnut, ash, hornbeam, black locust, pine, spruce, douglas, maritime pine, scotch pine, poplar, beech, plane, aspen, alder, olive, birch
-	- only for solid food goods: walnut, elm, 
-- essence de bois: 
-	- pour tout les aliments : chêne, châtaignier, frêne, charme, robinier, sapin, épicéa, douglas, pin maritime, pin sylvestre, peuplier, hêtre, platane, tremble, aulne, olivier, bouleau
-	- pour les solide alimentaires : hêtre, noyer, orme, peuplier
-- wood treatment: 
-	- no pentachlorophenol treatment (< 0,1 mg/kg of wood)
-	- ?
-- traitement du bois : 
-	- Absence de traitement au pentachlorophénol (< 0,1 mg/kg de bois)
-	- Produits de traitement autorisés pour les emballages de fruits et légumes
-	
-*[french source](http://www.contactalimentaire.com/index.php?id=382)*
+Wood is easiest material to make by oneself, but it doesn't work to any solutions, like with humid product (see under) which need to clean drying room with food grade cleaning product.
 
 ![Wood dryer](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Materials%20-%20wood.jpg)
 
 #### - Plastic
 Plastic is a good solution for fruits and vegetables dryers, which need to be wash with water after each utilization, so plastic is easy to clean but it isn't resilient.
-Inertial criteria to respect is decompose of 3 categories:
-- global restriction about substances
-- global limit of migration: < 10 mg/dm² (for material which used to babies good foods (< 3years), the limit is 60 mg/dm²)
-- specific limit of migration
 
-*[French source](http://www.contactalimentaire.com/index.php?id=250), and [other](http://www.contactalimentaire.com/fileadmin/ImageFichier_Archive/contact_alimentaire/Fichiers_Documents/autres/Fiches-materiaux-organiques-matieres-synthetiques.pdf)*
-*[epoxy document](http://www.contactalimentaire.com/fileadmin/ImageFichier_Archive/contact_alimentaire/Fichiers_Documents/Reglements_anglais/reg2005-1895ang.pdf)*
 ![Plastic dryer](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Materials%20-%20plastic.jpg)
 
 #### - Varnish materials
@@ -249,11 +219,25 @@ Different kinds of screen could be used, for example:
 ![alimentary grille](http://www.materiel-cuisson-frigorifique.com/back/images_article/201207190116714.jpg)
 
 ##### 3.1.2.1.2 Spread thickness
+For plant drying you can choose to spread it by thick layer, you need to adapt the system for that kind of spreading, avoid pressure loss.
+For cutted fruit and vegetable, you need to spread product in thin layer.
 
 ##### - Thin layers
+Adavantage:
+- work with natural convection
+
+Disadvantage:
+- long time of supplying
+
 ![Thin layer](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Spread%20system%20-%20Thin%20layer.JPG)
 
 ##### - Thick layers
+Adavantage:
+- easy to supply
+
+Disadvantage:
+- pressure loss (need forced convection)
+
 ![Thick layer](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Spread%20system%20-%20Thick%20layer.JPG)
 
 ##### 3.1.2.2 Bar
@@ -373,7 +357,7 @@ To size your solar panel:
 
 ##### - Opaque
 
-![Solar indirect opaque](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Heat%20source%20-%20solar%20indirect%20opaque.jpg)    ![Solar indirect opaque(2)](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Heat%20source%20-%20solar%20indirect%20opaque(2).jpg)    ![Solar indirect opaque(3)](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Heat%20source%20-%20solar%20indirect%20opaque(3).jpg)     ![Solar indirect opaque(4)](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Heat%20source%20-%20solar%20indirect%20opaque(4).JPG)
+![Solar indirect opaque](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Heat%20source%20-%20solar%20indirect%20opaque.jpg)    ![Solar indirect opaque(2)](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Heat%20source%20-%20solar%20indirect%20opaque(2).jpg)    ![Solar indirect opaque(3)](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Heat%20source%20-%20solar%20indirect%20opaque(3).jpg)     ![Solar indirect opaque(4)](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Heat%20source%20-%20solar%20indirect%20opaque(4).JPG)     ![Solar indirect opaque(5)](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Heat%20source%20-%20solar%20indirect%20opaque(5).JPG)
 
 ##### - Mixed (direct + indirect)
 
@@ -387,6 +371,12 @@ To size your solar panel:
 - Stone 
 ![Inertial system)](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Heat%20source%20-%20inertial%20system.jpg)
 
+#### Other kinf of panel
+##### Hybrid Panel PV/T (Photovoltaic and Thermical panel
+
+http://www.sft.asso.fr/Local/sft/dir/user-3775/documents/actes/congres_2011/Communications/133.pdf
+http://manifest.univ-ouargla.dz/documents/Archive/2015-2016/FSA/SMSTS%202015/SMSTS-2015_Soumission_n%c2%b047.pdf
+
 #### B. Electrical (resistor)
 
 ![Electrical)](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Heat%20source%20-%20electrical.jpg)
@@ -395,7 +385,7 @@ To size your solar panel:
 
 #### C. Warm and pollute flow
 That kind of heat source need a heat exchanger to separate pollute flow and drying flow.
-##### Heat exchanger 
+#### Heat exchanger 
 (source: http://www.uk-exchangers.com/heat-exchange-products/air-to-air-heat-exchangers/)
 Different kind of heat exchanger can be used to transfer energy from 1st fluid to a 2nd fluid. For beginning, we stay only in airflow exchanger.
 ##### - Plate type
@@ -410,35 +400,57 @@ Different kind of heat exchanger can be used to transfer energy from 1st fluid t
 
 ![Tubular type)](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Heat%20exchanger%20-%20tubular%20type.jpg)
 
-##### Heat source
+#### Heat source
 - Compost
+
 - Oil combustion
+
 - Wood combustion
 ![Wood combustion](http://forum.latelierpaysan.org/download/file.php?id=2804&sid=1b5d89bf4791922e41dc12cb3ea7d67d)
 
 
 ### 5. Convection
 #### A. Kind
-##### Natural: Work with rising warm airflow
-Not pulsed air
+There is 2 kind of airflow creation using in dryer:
+- natural convection: the airflow isn't pulsed
+- forced convection: the airflow is pulsed by an additional system
+
+##### Natural convection
+It Work with rising warm airflow, so the airflow isn't pulsed by an additional system.
+
+So that kind of system generally use the natural caracteristic of warmflow to go up.
+
+That's a very simple system to make but it can't be regulate to improve drying, or just to avoid too high temperature with increase airflow.
 
 ![Natural convection](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Convection%20-%20natural.jpg)
 
-##### Forced
-Pulsed air
+##### Forced convection
+Forced convection consist of a system which pulse airflow, to increase speed of drying, principally for 2 reasons.
+- For a professionnal application, producer need to have bigger production to respond to there financial need
+- With decrease of drying time, nutrient concentration increase. Drying is a physical chemistry reaction which deteriorate nutrient, so the faster is the best, but the faster need more energy.
 
 ##### - Electrical
+
+That's the more common solution for professional application, more expensive and complicated to make, with that kind of system, you can regulate the drying.
 
 ![Forced convection - electrical](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Convection%20-%20forced%20-%20electrical.jpg)
 
 ##### - Wind forced
+That kind of system is autonomous in energy, but it need to have access to wind and can't be regulate.
 
 ![Forced convection - wind](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Convection%20-%20forced%20-%20wind.jpg)
 
 #### B. Direction
+In that part we only speak for trays, in other kind of system, direction of the convection could be different.
+
 ##### Perpendicular to the trays
+The more common system use in DIY system because the easiest system to make and that work for each kind of product.
 
 ![Convection perpendicular to the trays](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Convection%20-%20perpendicular%20to%20the%20trays.jpg)
+
+##### Bottom up
+
+##### Up bottom
 
 ##### - Air repartition (plenum)
 - Air flow breaker
@@ -450,6 +462,7 @@ Pulsed air
 ![Room distributor](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Convection%20-%20air%20room%20repartition.jpg)
 
 ##### Parallel to the trays
+Only use for thin layer (all cutted fruit and vegetable, thin layer of plant), it's the most efficient choice because it divide warm airflow in all product and it limit pressure loss.
 
 ![Parallel to the trays](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Convection%20-%20parallele%20to%20the%20trays.jpg) ![Parallel to the trays](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Convection%20-%20parallele%20to%20the%20trays%20(2).jpg)   ![Parallel to the trays](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Convection%20-%20parallele%20to%20the%20trays%20(3).jpg)   ![Parallel to the trays](https://github.com/Gillou38/Drying-open-source-solution/blob/master/01%20-%20Ideas%20and%20concepts/State%20of%20art%20-%20Picture/Convection%20-%20parallele%20to%20the%20trays%20(4).jpg)
 
@@ -479,10 +492,91 @@ You can find a dehumidifier with a ventilation system. That's make a complete sy
 ### 6. Automation
 
 ### 7. Alimentary legislation
-Contact alimentaire direct
-claie
 
-Contact alimentaire indirect
+We can distinct 2 kind of using material in a dryer:
+- Direct contact: materials wich be in a direct contact with food goods. For example, the trays or other kind of spreading have a direct contact with food goods. So for that kind of restriction there is European restriction about that which integrate certain restriction for each kind of materials (plastic, wood ...)
+- Indirect contact: materials which don't have direct contact, like the drying room, but have a direct contact with airflow. For that kind of materials, there is a difference between plant (maybe cereals too) and fruit and vegetable, by the difference of humidity and sugar, in the product. In the 1st hand, it need only to clean dust, and in the other hand, it need to clean eventual  caramel on the side.
+
+#### Direct contact
+The best way to respect restriction is to use food grade product, but we try to popularize restriction to divert other material and products.
+
+European laws indicate regulation for direct contact, so there isn't direct contact with nuts, they don't need food grade materials.(verify that information)
+
+For direct alimentary contact, it need to respect [European regulation](http://www.europarl.europa.eu/RegData/etudes/STUD/2016/581411/EPRS_STU%282016%29581411_EN.pdf) which identify inertia of the material. It depend of:
+- materials composition
+- migration's treshold in food goods, of substance which composed materials
+- lack of deterioration of organoleptic properties (taste, smell, sight and touch) by materials
+
+There is specific criteria for:
+- materials which could be treat (ionization, recycling ...) 
+- coloring materials
+- cleaning product using on material which have contacte with good foods
+
+#### Steel
+Steel is a good solution for fruits and vegetables dryers, which need to be wash with water after each utilization, so stainless steel is easy to clean and it's resilient.
+
+Like it's precise before, for each kind of material there is special restriction about there inertial ctriteria.
+Inertial criteria to respect are:
+- chemical composition ([European laws in french](http://www.contactalimentaire.com/fileadmin/ImageFichier_Archive/contact_alimentaire/Fichiers_Documents/Brochure_JO/Note_2004_64/Fiches_DGCCRF_Revisees/DGCCRF-Fiches-metaux-alliages.pdf)
+- limit of undesirable elements:
+	- Lead (Plomb): < 0.05 %
+	- Cadmium: < 0.01 %
+	- Arsenic: < 0.03 %
+	- ...
+- specific migration of metalic element :
+	- Nickel < 0.5 mg/kg of food goods
+	- Chrome < 5 mg/kg of food goods
+	- Zinc < 10 mg/kg of food goods
+	- Lead < 4 mg/kg of food goods
+	- cadmium < 0.3 mg/kg of food goods
+	-...
+
+#### - Wood:
+For European regulation, 2 categories of criteria could influence the choice :
+- wood variety:
+	- accept all food goods: oak, sweet chestnut, ash, hornbeam, black locust, pine, spruce, douglas, maritime pine, scotch pine, poplar, beech, plane, aspen, alder, olive, birch
+	- only for solid food goods: walnut, elm, 
+- essence de bois: 
+	- pour tout les aliments : chêne, châtaignier, frêne, charme, robinier, sapin, épicéa, douglas, pin maritime, pin sylvestre, peuplier, hêtre, platane, tremble, aulne, olivier, bouleau
+	- pour les solide alimentaires : hêtre, noyer, orme, peuplier
+- wood treatment: 
+	- no pentachlorophenol treatment (< 0,1 mg/kg of wood)
+	- ?
+- traitement du bois : 
+	- Absence de traitement au pentachlorophénol (< 0,1 mg/kg de bois)
+	- Produits de traitement autorisés pour les emballages de fruits et légumes
+
+*[french source](http://www.contactalimentaire.com/index.php?id=382)*
+
+#### - Plastic
+Plastic is a good solution for fruits and vegetables dryers, which need to be wash with water after each utilization, so plastic is easy to clean but it isn't resilient.
+Inertial criteria to respect is decompose of 3 categories:
+- global restriction about substances
+- global limit of migration: < 10 mg/dm² (for material which used to babies good foods (< 3years), the limit is 60 mg/dm²)
+- specific limit of migration
+
+*[French source](http://www.contactalimentaire.com/index.php?id=250), and [other](http://www.contactalimentaire.com/fileadmin/ImageFichier_Archive/contact_alimentaire/Fichiers_Documents/autres/Fiches-materiaux-organiques-matieres-synthetiques.pdf)*
+*[epoxy document](http://www.contactalimentaire.com/fileadmin/ImageFichier_Archive/contact_alimentaire/Fichiers_Documents/Reglements_anglais/reg2005-1895ang.pdf)*
+
+#### - Varnish materials
+What kind of varnish could be used, what the maximum rate of product could be used.
+
+- Vanish for wood
+For fruit and vegetable dryers which need to be clean with water, wood without vanish can't reply to that restriction. So to vanish wood could be a great solution to have an easy to make dryer and respect very restricted alimentary regulation.
+
+#### Indirect contact
+
+Restriction about indirect contact is about cleaning material we can distinct 2 kind of product:
+- humid products: like fruit and vegetable which need to be clean with liquid product after each utilisation. Indeed humid material dirty the interior of the drying room because of high level of sugar or other component in airflow.
+- other products: like plant and cereal which need to clean dust in the dryer.
+
+#### - Varnish materials
+What kind of varnish could be used, what the maximum rate of product could be used.
+
+- Vanish for wood
+For fruit and vegetable dryers which need to be clean with water, wood without vanish can't reply to that restriction. So to vanish wood could be a great solution to have an easy to make dryer and respect very restricted alimentary regulation.
+
+### 8.Electrical restriction
 Tout les composants d’entrée
 
 - Classe IP 44 ? humidity restriction for electrical components
